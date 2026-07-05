@@ -9,10 +9,29 @@ body {
   letter-spacing: 0.02em;
 }
 
+.container {
+  width: 1158px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
 .hero,
 .team,
 .features {
   padding: 120px 0px;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
 }
 
 .a {
