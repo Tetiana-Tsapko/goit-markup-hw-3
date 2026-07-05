@@ -1,12 +1,29 @@
 .features {
+  background-color: #ffffff;
+  padding: 120px 0px;
 }
 .sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
 }
 .features-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .features-list-item {
+  width: 264px;
 }
 .features-list-subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;

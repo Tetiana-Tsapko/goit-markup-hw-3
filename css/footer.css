@@ -1,7 +1,9 @@
 .footer {
+  padding: 100px;
   background-color: #2e2f42;
 }
 .footer-logo {
+  margin-bottom: 16px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.33;
@@ -13,5 +15,6 @@
   color: #4d5ae5;
 }
 .footer-text {
+  max-width: 264px;
   color: #f4f4fd;
 }

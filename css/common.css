@@ -9,14 +9,30 @@ body {
   letter-spacing: 0.02em;
 }
 
-a {
+.hero,
+.team,
+.features {
+  padding: 120px 0px;
+}
+
+.a {
   text-decoration: none;
   color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
 }
 
 ul,
 ol {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 button {

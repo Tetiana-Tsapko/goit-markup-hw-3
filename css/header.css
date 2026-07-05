@@ -1,5 +1,19 @@
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
 }
+
+.header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+}
+
 .header-logo {
   font-weight: 700;
   font-size: 18px;
@@ -12,12 +26,25 @@
   color: #4d5ae5;
 }
 .header-nav {
+  margin-left: auto;
+  margin-right: 340px;
 }
 .header-nav-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+
+  width: 253px;
+  height: 72px;
 }
+
 .header-nav-item {
+  padding: 24px 0px;
+  width: 65px;
+  height: 72px;
 }
 .header-nav-link {
+  display: block;
   font-weight: 500;
   color: #2e2f42;
 }
@@ -29,10 +56,23 @@
   font-style: normal;
 }
 .header-address-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+
+  width: 344px;
+  height: 72px;
 }
 .header-adress-item {
 }
 .header-address-link {
+  white-space: nowrap;
+  padding: 24px 0px;
+  width: 151px;
+  height: 72px;
+
   color: #434455;
 }
 .header-address-link:hover,

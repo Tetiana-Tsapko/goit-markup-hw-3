@@ -9,8 +9,12 @@
   color: #2e2f42;
 }
 .team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .team-list-item {
+  border-radius: 0 0 4px 4px;
   background-color: #ffffff;
   letter-spacing: 0.02em;
 }
