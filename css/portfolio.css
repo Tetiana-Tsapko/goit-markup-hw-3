@@ -3,6 +3,7 @@
   background-color: #ffffff;
 }
 .portfolio-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -12,15 +13,23 @@
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
 }
 .portfolio-list-item {
+  gap: 0px 24px;
   border-radius: 0 0 4px 4px;
   background-color: #ffffff;
   letter-spacing: 0.02em;
 }
 .portfolio-image {
+  display: block;
 }
+
+.portfolio-wrapper {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  margin: 48px 0px;
+}
+
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;

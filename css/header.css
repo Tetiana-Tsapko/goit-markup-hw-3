@@ -4,6 +4,7 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
+  border: 1px solid #e7e9fc;
 }
 
 .header > .container {
@@ -26,7 +27,7 @@
   color: #4d5ae5;
 }
 .header-nav {
-  margin-left: auto;
+  margin-left: 76px;
   margin-right: 340px;
 }
 .header-nav-list {
