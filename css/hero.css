@@ -4,9 +4,7 @@
 }
 .hero > .container {
   background-color: #2e2f42;
-  max-width: 1158px;
-}
-.hero-wrapper {
+  width: 1158px;
 }
 
 .hero-title {
@@ -17,7 +15,7 @@
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: -0.03;
+  letter-spacing: 0.02;
   color: #ffffff;
 }
 .hero-button {
